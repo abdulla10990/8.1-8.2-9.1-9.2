@@ -1,0 +1,48 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.searchResultsContainer {
+  padding: 1rem;
+  flex: 1;
+}
+
+.movieGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movieCard:hover {
+  transform: translateY(-5px);
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+}
+
+.movieDetails {
+  padding: 0.5rem;
+  text-align: center;
+}

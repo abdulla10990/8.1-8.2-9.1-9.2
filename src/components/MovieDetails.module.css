@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.movieDetailsContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+.moviePosterContainer {
+  flex: 0 0 auto;
+}
+
+.moviePoster {
+  width: 300px;
+  height: auto;
+}
+
+.movieInfo {
+  flex: 1;
+}

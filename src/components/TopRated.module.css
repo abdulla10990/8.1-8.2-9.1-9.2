@@ -1,0 +1,57 @@
+.topRatedContainer {
+  padding: 1rem;
+  flex: 1;
+}
+
+.movieRows {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movieRow {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 calc(25% - 0.75rem); /* Adjusted width for 4 movies per row */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movieCard:hover {
+  transform: translateY(-5px);
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.movieDetails {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.movieRating {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+.movieLink {
+  text-decoration: none;
+  color: inherit;
+  flex: 0 0 calc(25% - 0.75rem); 
+}
+
+

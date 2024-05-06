@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+  padding: 1rem 0;
+  background-color: #222; 
+  color: #fff;
+}
+
+
+
+.sidebarButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; 
+}
+
+.sidebarButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px; 
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebarButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.buttonIcon {
+  font-size: 1.5rem;
+}
+
+.buttonLabel {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
